@@ -1,0 +1,19 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "This app is for weather monitoring",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulDayyan1/Assignments.git"
+  },
+  "author": "Abdul Dayyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdulDayyan1/Assignments/issues"
+  },
+  "homepage": "https://github.com/AbdulDayyan1/Assignments#readme"
+}
