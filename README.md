@@ -1,6 +1,6 @@
 # Rule Engine Assignment and Weather Monitoring System
 
-# Rule Engine 
+## Rule Engine 
 
 ## Overview
 
@@ -61,30 +61,28 @@ Testing
 The application includes unit tests that ensure the functionality of rule creation, combination, and evaluation.
 
 
-Weather Monitoring System
+# Weather Monitoring System
 
-Overview
+## Overview
 The Weather Monitoring System is a real-time data processing application that monitors weather conditions using the OpenWeatherMap API. It provides users with detailed weather information, including daily summaries, temperature visualizations, and alerts for specific weather conditions.
 
-Features
+## Features
 Real-time weather data retrieval
 Daily weather summaries including average, maximum, and minimum temperatures
 Visual representation of temperature changes using line charts
 User-friendly interface built with React
-Prerequisites
+## Prerequisites
 Before you begin, ensure you have the following installed:
 
 Node.js (v14 or later)
 Python (v3.6 or later)
 PostgreSQL (v12 or later)
-API Key
+## API Key
 To use the OpenWeatherMap API, you will need an API key. You can get your API key by signing up at OpenWeatherMap. Once you have your key, replace the placeholder in weather.py with your actual API key.
 
 API_KEY = "0d5776e26aa6c0960bf7499b5a3e3ee7" #this is my api key you can use yours 
-Project Structure
-bash
-Copy code
-WeatherMonitoringSystem/
+## Project Structure
+ ## WeatherMonitoringSystem/
 │
 ├── backend/
 │   ├── app.py                 # Main Flask application
@@ -93,22 +91,20 @@ WeatherMonitoringSystem/
 └── frontend/
     ├── WeatherMonitoringSystem.js  # Main React component for the frontend
     └── index.js                # Entry point for the React application
-Setup Instructions
-Backend Setup
+## Setup Instructions
+### Backend Setup
 Navigate to the backend directory:
 
-
-cd backend
 Install the required Python packages:
 
 pip install flask requests psycopg2
 Run the backend server:
 
 python app.py
-Frontend Setup
+### Frontend Setup
 Navigate to the frontend directory:
 
-cd frontend
+
 Install the required Node.js package
 
 npm install
